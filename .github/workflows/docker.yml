@@ -3,7 +3,7 @@ name: Build & publish image
 on:
   push:
     branches: [main]
-    tags: ["v*"]
+    COPY srcc ./src
   pull_request: # build only (no push) so Dockerfile breakages are caught in PRs
 
 permissions:
