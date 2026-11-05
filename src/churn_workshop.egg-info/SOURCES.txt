@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/churn_workshop/__init__.py
+src/churn_workshop/api.py
+src/churn_workshop/data.py
+src/churn_workshop/features.py
+src/churn_workshop/train.py
+src/churn_workshop.egg-info/PKG-INFO
+src/churn_workshop.egg-info/SOURCES.txt
+src/churn_workshop.egg-info/dependency_links.txt
+src/churn_workshop.egg-info/requires.txt
+src/churn_workshop.egg-info/top_level.txt
+tests/test_api.py
+tests/test_data.py
+tests/test_features.py
+tests/test_train.py

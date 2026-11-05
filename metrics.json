@@ -1,0 +1,6 @@
+{
+  "roc_auc": 0.8318,
+  "accuracy": 0.748,
+  "n_train": 1500,
+  "n_test": 500
+}
