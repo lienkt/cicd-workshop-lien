@@ -36,7 +36,8 @@ def test_unknown_contract_is_rejected():
     df.loc[0, "contract"] = "lifetime"
     with pytest.raises(DataValidationError, match="contract"):
         validate_data(df)
-        
+
+
 def test_negative_support_tickets_are_rejected():
     df = generate_data(50)
     df.loc[0, "support_tickets"] = -1
